@@ -7,7 +7,7 @@ fetch(url)
   })
   .then(dados => {
     
-    fnCarregarDados(dados.avatar_url, dados.name, dados.bio, dados.email, dados.twitter_username, dados.html_url, dados.blog)
+    fnMostrarDados(dados.avatar_url, dados.name, dados.bio, dados.email, dados.twitter_username, dados.html_url, dados.blog)
   })
 
 
