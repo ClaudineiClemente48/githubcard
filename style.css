@@ -28,3 +28,6 @@ body {
     border:5px solid #fffafa;
 
 }
+#espaco-cartao {
+    display: none;
+} 
